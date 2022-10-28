@@ -36,6 +36,6 @@ export async function getStaticProps() {
       story: data ? data.story : false,
       key: data ? data.story.id : false,
     },
-    revalidate: 10,
+    revalidate: 60,
   };
 }
