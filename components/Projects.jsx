@@ -1,7 +1,9 @@
-/* This example requires Tailwind CSS v2.0+ */
+import { storyblokEditable } from "@storyblok/react";
+
   
-  export default function Example() {
+  export default function Example(blok) {
     return (
+        <div {...storyblokEditable(blok)} class="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
       <section class="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="max-w-3xl text-center lg:text-left">
@@ -80,7 +82,7 @@
         </div>
     </div>
 </section>
-
+</div>
     )
   }
   
