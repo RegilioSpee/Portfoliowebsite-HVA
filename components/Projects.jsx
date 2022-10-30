@@ -16,10 +16,10 @@ import { storyblokEditable } from "@storyblok/react";
                 <div class="overflow-hidden rounded-md aspect-w-4 aspect-h-3">
                     <img class="object-cover w-full h-full transition-all duration-200 group-hover:scale-110 group-hover:rotate-3" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/blog/2/thumbnail-1.png" alt="" />
                 </div>
-                <p class="mt-6 text-base font-normal text-gray-500">Mamedia</p>
-                <p class="mt-3 text-xl font-normal text-white">Een Wordpress website voor een media consultancy</p>
+                <p class="mt-6 text-base font-normal text-gray-500">{blok.project_1_name}</p>
+                <p class="mt-3 text-xl font-normal text-white">{blok.project_1_description}</p>
                 <div class="mt-6">
-                    <a href="#" title="" class="flex items-center text-gray-400" role="button">
+                    <a href={blok.project_1_link} target="_blank" title="" class="flex items-center text-gray-400" role="button">
                         <span class="w-32 transition-all duration-300 lg:opacity-0 lg:group-hover:opacity-100"> Website </span>
                         <svg class="w-5 h-5 text-gray-400 transition-all duration-200 transform lg:-translate-x-32 lg:group-hover:translate-x-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -33,10 +33,10 @@ import { storyblokEditable } from "@storyblok/react";
                 <div class="overflow-hidden rounded-md aspect-w-4 aspect-h-3">
                     <img class="object-cover w-full h-full transition-all duration-200 group-hover:scale-110 group-hover:rotate-3" src="cs4_webp.png" alt="" />
                 </div>
-                <p class="mt-6 text-base font-normal text-gray-500">CS4</p>
-                <p class="mt-3 text-xl font-normal text-white">Website voor CS4 die software services levert</p>
+                <p class="mt-6 text-base font-normal text-gray-500">{blok.project_2_name}</p>
+                <p class="mt-3 text-xl font-normal text-white">{blok.project_2_description}</p>
                 <div class="mt-6">
-                    <a href="#" title="" class="flex items-center text-gray-400" role="button">
+                    <a href="#" target="_blank" title="" class="flex items-center text-gray-400" role="button">
                         <span class="w-32 transition-all duration-300 lg:opacity-0 lg:group-hover:opacity-100"> Website </span>
                         <svg class="w-5 h-5 text-gray-400 transition-all duration-200 transform lg:-translate-x-32 lg:group-hover:translate-x-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -50,10 +50,10 @@ import { storyblokEditable } from "@storyblok/react";
                 <div class="overflow-hidden rounded-md aspect-w-4 aspect-h-3">
                     <img class="object-cover w-full h-full transition-all duration-200 group-hover:scale-110 group-hover:rotate-3" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/blog/2/thumbnail-3.png" alt="" />
                 </div>
-                <p class="mt-6 text-base font-normal text-gray-500">Website</p>
-                <p class="mt-3 text-xl font-normal text-white">Een project over lorem ipsum tekst</p>
+                <p class="mt-6 text-base font-normal text-gray-500">{blok.project_3_name}</p>
+                <p class="mt-3 text-xl font-normal text-white">{blok.project_3_description}</p>
                 <div class="mt-6">
-                    <a href="#" title="" class="flex items-center text-gray-400" role="button">
+                    <a href="#" target="_blank" title="" class="flex items-center text-gray-400" role="button">
                         <span class="w-32 transition-all duration-300 lg:opacity-0 lg:group-hover:opacity-100"> Website </span>
                         <svg class="w-5 h-5 text-gray-400 transition-all duration-200 transform lg:-translate-x-32 lg:group-hover:translate-x-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -67,10 +67,10 @@ import { storyblokEditable } from "@storyblok/react";
                 <div class="overflow-hidden rounded-md aspect-w-4 aspect-h-3">
                     <img class="object-cover w-full h-full transition-all duration-200 group-hover:scale-110 group-hover:rotate-3" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/blog/2/thumbnail-4.png" alt="" />
                 </div>
-                <p class="mt-6 text-base font-normal text-gray-500">Website</p>
-                <p class="mt-3 text-xl font-normal text-white">Een project over lorem ipsum tekst</p>
+                <p class="mt-6 text-base font-normal text-gray-500">{blok.project_4_name}</p>
+                <p class="mt-3 text-xl font-normal text-white">{blok.project_4_description}</p>
                 <div class="mt-6">
-                    <a href="#" title="" class="flex items-center text-gray-400" role="button">
+                    <a href="#" target="_blank" title="" class="flex items-center text-gray-400" role="button">
                         <span class="w-32 transition-all duration-300 lg:opacity-0 lg:group-hover:opacity-100"> Website </span>
                         <svg class="w-5 h-5 text-gray-400 transition-all duration-200 transform lg:-translate-x-32 lg:group-hover:translate-x-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
