@@ -18,7 +18,7 @@ function Footer() {
                         <svg class="w-6 h-6 text-gray-600 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
-                        <a href="#" title="" class="ml-4 text-lg font-normal text-white"> regiliospee17@gmail.com </a>
+                        <a href="mailto:regiliospee17@gmail.com" title="" class="ml-4 text-lg font-normal text-white"> regiliospee17@gmail.com </a>
                     </div>
                 </div>
 
