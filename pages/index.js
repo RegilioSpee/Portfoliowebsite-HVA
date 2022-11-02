@@ -1,4 +1,7 @@
 import Head from "next/head";
+import Navbar from '../components/Navbar'
+import Form from '../components/Form'
+import Footer from '../components/Footer'
 import styles from "../styles/Home.module.css";
 
 import {
@@ -13,10 +16,13 @@ export default function Home({ story }) {
   return (
     <div>
       <Head>
-        <title>Regilios coole app</title>
+        <title>Regilio Spee | Portfoliowebsite</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <StoryblokComponent blok={story.content} />
+      <Form />
+      <Footer />
     </div>
   );
 }
@@ -36,6 +42,6 @@ export async function getStaticProps() {
       story: data ? data.story : false,
       key: data ? data.story.id : false,
     },
-    revalidate: 60,
+    revalidate: 3600,
   };
 }

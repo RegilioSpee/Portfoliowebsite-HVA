@@ -2,14 +2,16 @@ import { storyblokInit, apiPlugin } from '@storyblok/react';
 import Page from '../components/Page';
 import About from '../components/About';
 import Hero from '../components/Hero';
-import Projects from '../components/Projects';
+import Projects from '../components/Project'
+import Grid from '../components/Grid'
 import '../styles/globals.css'
 
 const components = {
   page: Page,
   hero: Hero,
   about: About,
-  projects: Projects
+  grid: Grid,
+  project: Projects
 };
 
 storyblokInit({
