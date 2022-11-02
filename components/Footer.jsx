@@ -18,7 +18,7 @@ function Footer() {
                         <svg class="w-6 h-6 text-gray-600 shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
-                        <a href="mailto:regiliospee17@gmail.com" title="" class="ml-4 text-lg font-normal text-white"> regiliospee17@gmail.com </a>
+                        <a href="mailto:regiliospee17@gmail.com?subject=Contact met Regilio" title="" class="ml-4 text-lg font-normal text-white"> regiliospee17@gmail.com </a>
                     </div>
                 </div>
 
@@ -28,7 +28,7 @@ function Footer() {
                     </li>
 
                     <li>
-                        <a href="tel:+31 6 40991664" title="" class="flex text-base font-normal transition-all duration-200 transform text-gray-50 hover:text-white hover:-translate-y-1"> +31 6 4099 1664 </a>
+                        <a href="tel:+31 6 12345678" title="" class="flex text-base font-normal transition-all duration-200 transform text-gray-50 hover:text-white hover:-translate-y-1"> +31 6 4099 1664 </a>
                     </li>
 
                     <li>

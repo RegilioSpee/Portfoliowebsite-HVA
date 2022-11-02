@@ -3,11 +3,11 @@ import { storyblokEditable } from "@storyblok/react";
 
 const About = ({blok}) => {
     return (
-        <section {...storyblokEditable(blok)} class="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
+        <section id="about" {...storyblokEditable(blok)} class="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
             <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div class="relative overflow-hidden">
                     <div class="lg:absolute lg:inset-0 aspect-w-4 aspect-h-3">
-                        <img class="object-cover object-left w-full h-full lg:object-top xl:object-contain" src="https://images.unsplash.com/photo-1665694839721-e956ad3f6afc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+                        <img class="object-cover object-left w-half h-full lg:object-top xl:object-contain" src="https://media-exp1.licdn.com/dms/image/D4E03AQGeGHwFUhYFCQ/profile-displayphoto-shrink_800_800/0/1667396467893?e=1672876800&v=beta&t=OP6m6vJRsImzVY9AyQYhAIr5FKe-Y5JVoGV91U-c8zI" alt="" />
                     </div>
 
                     <div class="relative flex justify-end">

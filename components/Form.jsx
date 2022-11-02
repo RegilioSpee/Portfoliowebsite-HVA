@@ -14,7 +14,7 @@ export default function Form() {
             });
     };
     return (
-        <section class="py-12 overflow-hidden bg-gray-900 sm:py-16 lg:py-20 xl:py-24">
+        <section id="form" class="py-12 overflow-hidden bg-gray-900 sm:py-16 lg:py-20 xl:py-24">
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div class="grid max-w-6xl grid-cols-1 mx-auto gap-y-12 lg:grid-cols-2 lg:gap-x-16 xl:gap-x-24">
                     <div class="relative flex flex-col justify-between max-w-lg lg:py-12 lg:max-w-none">

@@ -2,7 +2,7 @@ import { storyblokEditable, StoryblokComponent } from "@storyblok/react";
 
 const Grid = ({ blok }) => {
   return (
-    <div {...storyblokEditable(blok)} className="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
+    <div id="projects" {...storyblokEditable(blok)} className="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
       <section class="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="text-center lg:text-left">
