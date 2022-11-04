@@ -20,13 +20,13 @@ export default function Form() {
                     <div class="relative flex flex-col justify-between max-w-lg lg:py-12 lg:max-w-none">
                         <div class="flex-1">
                             <p class="text-sm font-normal tracking-widest uppercase">
-                                <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500"> Neem contact op. </span>
+                                <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500"> Contact. </span>
                             </p>
                         </div>
 
                         <div class="mt-6 lg:mt-auto">
-                            <h2 class="text-3xl font-normal text-white sm:text-4xl lg:text-5xl xl:text-6xl">Kom meer te weten over mij.</h2>
-                            <p class="mt-4 text-base font-normal text-gray-400 lg:max-w-xs sm:text-lg sm:mt-6">Dan zal ik in een meeting alles toelichten</p>
+                            <h2 class="text-3xl font-normal text-white sm:text-4xl lg:text-5xl xl:text-6xl">Neem contact met me op.</h2>
+                            <p class="mt-4 text-base font-normal text-gray-400 lg:max-w-xs sm:text-lg sm:mt-6">Vul het contactformulier in</p>
                         </div>
                     </div>
 

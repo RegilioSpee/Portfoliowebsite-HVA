@@ -7,9 +7,9 @@ function Footer() {
         <div class="lg:flex lg:items-start lg:justify-between">
             <div class="text-center lg:text-left">
                 <a href="#" title="" class="flex">
-                    <img class="w-auto mx-auto h-9 lg:mx-0" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/logo.svg" alt="" />
+                    <img class="w-auto mx-auto h-9 lg:mx-0" src="https://i.ibb.co/Bncjm5V/CS4-Logo-White-2.png" alt="" />
                 </a>
-                <p class="mt-6 text-base font-normal text-gray-400 lg:max-w-xs">Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+                <p class="mt-6 text-base font-normal text-gray-400 lg:max-w-xs">Business & IT student aan de Hogeschool van Amsterdam</p>
             </div>
 
             <div class="mt-6 lg:mt-0">
@@ -32,11 +32,11 @@ function Footer() {
                     </li>
 
                     <li>
-                        <a href="#" title="" class="flex text-base font-normal transition-all duration-200 transform text-gray-50 hover:text-white hover:-translate-y-1"> Pricing & Plans </a>
+                        <a href="/#about" title="" class="flex text-base font-normal transition-all duration-200 transform text-gray-50 hover:text-white hover:-translate-y-1"> Over mij </a>
                     </li>
 
                     <li>
-                        <a href="#" title="" class="flex text-base font-normal transition-all duration-200 transform text-gray-50 hover:text-white hover:-translate-y-1"> Contact </a>
+                        <a href="/#form" title="" class="flex text-base font-normal transition-all duration-200 transform text-gray-50 hover:text-white hover:-translate-y-1"> Contact </a>
                     </li>
                 </ul>
             </div>
